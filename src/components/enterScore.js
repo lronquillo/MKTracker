@@ -56,7 +56,7 @@ class EnterScore extends Component {
                             <FormControl
                                 type="number"
                                 value={this.state.prixPoints}
-                                placeholder=""
+                                placeholder="0"
                                 onChange={this.handlePointsChange}
                             />
                         </FormGroup>
@@ -70,6 +70,9 @@ class EnterScore extends Component {
                                 onChange={this.handleCupChange}
                             >
                                 <option value="mushroom">Mushroom</option>
+                                <option value="star">Star</option>
+                                <option value="leaf">Leaf</option>
+                                <option value="lightning">Lightning</option>
                                 <option value="other">...</option>
                             </FormControl>
                         </FormGroup>
